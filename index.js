@@ -1,40 +1,44 @@
-let Erhan = {
+function getPersonDetails(person) {
+    return 'Name: ' + person.name + ' ' + person.lastname + ' , Age: ' + person.age;
+}
+
+let erhan = {
     name: 'Erhan',
     lastname: 'Ozdemir',
     age: '56',
 };
-let Ayse = {
+let ayse = {
     name: 'Ayse',
     lastname: 'Ozdemir',
     age: '49',
 }
-let Osman = {
+let osman = {
     name: 'Osman',
     secondname: 'Nurullah',
     lastname: 'Ozdemir',
-    Age: '30',
+    age: '30',
 }
-let Numan = {
+let numan = {
     name: 'Ahmet',
     secondname: 'Numan',
     lastname: 'Ozdemir',
     age: '28',
 }
-let Cagri = {
+let cagri = {
     name: 'Cagri',
     secondname: 'Fatih',
     lastname: 'Ozdemir',
-    Age: '15',
+    age: '15',
 }
-let Efe = {
+let efe = {
     name: 'Furkan',
     secondname: 'Efe',
     lastname: 'Ozdemir',
     age: '11',
 }
-console.log(person1);
-console.log(person2);
-console.log(person3);
-console.log(person4);
-console.log(person5);
-console.log(person6);
+console.log(getPersonDetails(osman));
+console.log(getPersonDetails(numan));
+console.log(getPersonDetails(cagri));
+console.log(getPersonDetails(efe));
+console.log(getPersonDetails(ayse));
+console.log(getPersonDetails(erhan));
