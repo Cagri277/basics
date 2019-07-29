@@ -1,32 +1,32 @@
-let person1 = {
+let Erhan = {
     name: 'Erhan',
     lastname: 'Ozdemir',
     age: '56',
 };
-let person2 = {
+let Ayse = {
     name: 'Ayse',
     lastname: 'Ozdemir',
     age: '49',
 }
-let person3 = {
+let Osman = {
     name: 'Osman',
     secondname: 'Nurullah',
     lastname: 'Ozdemir',
     Age: '30',
 }
-let person4 = {
+let Numan = {
     name: 'Ahmet',
     secondname: 'Numan',
     lastname: 'Ozdemir',
     age: '28',
 }
-let person5 = {
+let Cagri = {
     name: 'Cagri',
     secondname: 'Fatih',
     lastname: 'Ozdemir',
     Age: '15',
 }
-let person6 = {
+let Efe = {
     name: 'Furkan',
     secondname: 'Efe',
     lastname: 'Ozdemir',
