@@ -1,5 +1,5 @@
 function getPersonDetails(person) {
-    return 'Name: ' + person.name + ' ' + person.lastname + ' , Age: ' + person.age;
+    return 'Name: ' + person.name + ' ' + person.secondname + ' ' + person.lastname + ' , Age: ' + person.age;
 }
 
 let erhan = {
@@ -36,6 +36,7 @@ let efe = {
     lastname: 'Ozdemir',
     age: '11',
 }
+
 console.log(getPersonDetails(osman));
 console.log(getPersonDetails(numan));
 console.log(getPersonDetails(cagri));
