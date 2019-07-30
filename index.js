@@ -4,11 +4,13 @@ function getPersonDetails(person) {
 
 let erhan = {
     name: 'Erhan',
+    secondname: '',
     lastname: 'Ozdemir',
     age: '56',
 };
 let ayse = {
     name: 'Ayse',
+    secondname: '',
     lastname: 'Ozdemir',
     age: '49',
 }
