@@ -1,13 +1,10 @@
-function twonumbers (number1, Number2){
-    if (number1 > Number2){
-        return (number1)
+function twoNumbers (number1, number2){
+    if (number1 >= number2){
+        return number1
     }
-    else if (Number2 > number1){
-        return (Number2)
-    }
-    else{
-        return ('esit')
+    else {
+        return number2
     }
 }
 
-console.log(twonumbers(5,5))
+console.log(twoNumbers(5,5))
