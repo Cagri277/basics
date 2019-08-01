@@ -1,14 +1,9 @@
-function fizzbuzz (number) {
-    if (number % 15 === 0) {
-        return 'fizzbuzz'
-    }
-        if (number % 5 === 0){
-            return 'buzz'
-        }
-        if (number % 3 === 0){
-            return 'fizz'
-        } 
-}
-console.log(fizzbuzz(30))
-console.log(fizzbuzz(9))
-console.log(fizzbuzz(10))
+let a = 'red';
+let b = 'blue';
+
+let c = a;
+a = b;
+b = c;
+
+console.log(a);
+console.log(b);
