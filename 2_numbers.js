@@ -7,4 +7,4 @@ function twoNumbers (number1, number2){
     }
 }
 
-console.log(twoNumbers(5,5))
+console.log(twoNumbers(5,10))
